@@ -19,7 +19,7 @@ fun DogsScreen(
     val dogs = listOf(
         Dog(id = 1, name = "Buddy", breed = "Golden Retriever", imageUrl = ""),
         Dog(id = 2, name = "Max", breed = "Labrador", imageUrl = "")
-    ) // Tymczasowe dane
+    ) 
 
     LazyColumn(modifier = modifier) {
         items(dogs) { dog ->
